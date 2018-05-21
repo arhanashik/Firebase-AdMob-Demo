@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bannar Ads will appear here"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_interstitial_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Interstitial Ads"/>
+
+        <Button
+            android:id="@+id/btn_reward_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Reward Ads"/>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannar_ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        app:adUnitId="@string/test_banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

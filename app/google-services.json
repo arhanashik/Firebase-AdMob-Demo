@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57031390063",
+    "firebase_url": "https://fir-admobdemo-5919b.firebaseio.com",
+    "project_id": "fir-admobdemo-5919b",
+    "storage_bucket": "fir-admobdemo-5919b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57031390063:android:c73dc2ba4c434209",
+        "android_client_info": {
+          "package_name": "com.blackspider.firebaseadmobdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57031390063-uals66aqss3k4eh5t2s41alvnp9c5rig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blackspider.firebaseadmobdemo",
+            "certificate_hash": "a82c84c1665cf22b3a1ca46e3522359584e03d1b"
+          }
+        },
+        {
+          "client_id": "57031390063-f8bgfp3ajt41jt843tg6o5i433llqagp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl7RoHa6Va7fKlbw2n9DmKH9Bw7cpq9J8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57031390063-f8bgfp3ajt41jt843tg6o5i433llqagp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

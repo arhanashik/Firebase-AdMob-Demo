@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FIrebaseAdMobDemo</string>
+
+    <string name="test_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5700470285392997/4060909062</string>
+
+    <string name="test_interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-5700470285392997/4799275663</string>
+
+    <string name="test_reward_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="reward_ad_unit_id">ca-app-pub-5700470285392997/6156874776</string>
+</resources>
